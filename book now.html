@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMBULANCE SERVICE</title>
+</head>
+<link rel="stylesheer"href="css/style.css">
+    <style>
+        label{
+            color: black;
+            font-size: 30px;
+            
+        }
+        .heading{
+            top:0px;
+            display: inline block;
+            text-align: center;
+            padding: 5px 10px;
+            font-size: 60px;
+            top: 5px;
+            background-color: yellow;
+        }
+        body{
+            background: url(img/back2.jpg);
+            background-size: cover;
+       }
+        
+    </style>
+
+<body>
+    <h1 class="heading">WELCOME TO OUR SERVICES</h1>
+    <form>
+        <strong><label for="pickup">Pickup Location:</label></strong>
+        <input type="text" id="pickup" name="pickup" required><br>
+
+        <strong><label for="dropoff">Dropoff Location:</label></strong>
+        <input type="text" id="dropoff" name="dropoff" required><br>
+
+        <strong><label for="date">Date:</label></strong>
+        <input type="date" id="date" name="date" required><br>
+
+        <strong><label for="time">Time:</label></strong>
+        <input type="time" id="time" name="time" required><br>
+
+        <strong><label for="passengers">Patient's Details:</label></strong>
+        <input type="text" id="passengers" name="passengers"  required><br>
+
+        <strong><label for="name">Your Name:</label></strong>
+        <input type="text" id="name" name="name" required><br>
+
+        <strong><label for="phone">Phone Number:</label></strong>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br>
+
+        <input type="submit" value="Book Now">
+    </form>
+</body>
+</html>
