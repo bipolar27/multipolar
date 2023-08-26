@@ -6,13 +6,12 @@ Project Overview: To create a robust system that allows users to book ambulances
 
 Team Members:
 
->Souradip Chakraborty(Team Lead)->Idea formulation and overview of code. Knowledge of C
-
->Sanchali Das->Responsible for Idea formulation and presentation of the idea in PPT form. Knowledgeable in C
+>Souradip Chakraborty(Team Lead)->Idea formulation and overview of code.
+>Sanchali Das->Responsible for Idea formulation and presentation of the idea in PPT form. 
 
 >Priyam Paul->Front-end developer for the website
 
->Sourajit Kar->Actual Implementation of idea in code.Knowledgable in C
+>Sourajit Kar->Actual Implementation of idea in code.
 
 
 Challenges Faced: Designing a completely tangible way to overcome this issue
