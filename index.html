@@ -2,42 +2,296 @@
 <html>
   <head>
         <meta charset="utf-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1">
-    <title>HACKATHON</title>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>HACKATHON</title>
+        <script src="script.js"></script>
   </head>
-  <body background="1.jpg"  alink="#017bf5" vlink="#000">
-    <h3 align="center">
-      <font  size="5"></font> 
-      <font face="cinzel">
-       <a href="#">OVERVIEW</a>&nbsp;&nbsp;&nbsp;
-       <a href="#">MAPS</a>&nbsp;&nbsp;&nbsp;
-       <a href="#">CONTENTS</a>&nbsp;&nbsp;&nbsp;
-       <a href="#">REVIEWS</a>&nbsp;&nbsp;&nbsp;
-       <a href="#">CONTACT US</a>&nbsp;&nbsp;&nbsp;
-       <a href="#">HELP CENTRE</a>&nbsp;&nbsp;&nbsp;
+  <link rel="stylesheer"href="css/style.css">
+  <style>
+        
+       body{
+        background: url("img/ec5ef543-1667-46dc-8ee0-78bf8097b1fa.jfif");
+        background-repeat: no-repeat;
+        background-size: 1600px 650px;
+        background-position: 0% 40%;
+       }
+       #trackbutton{
+            /*display:block;*/
+            padding: 18px 20px;
+            font-size: 20px;
+            color:white;
+            background-color: blue;
+            display:inline-block;
 
-      </font>
-    </h3>
-    <br />  <br />  <br /> <br />  <br />  <br />  <br />  <br /> 
-    <h1 align="center">
-        <font style="font-family:verdana;color: whitesmoke;background-color:blue;font-size:200%;"> 
-            RAPID RESCUE
-        </font>
+       }
+        .navbar{
+            text-align: center;
+            display: block;
+            width: 70%;
+            margin: 20px auto;
+            
+
+        }
+        .navbar li{
+            display: inline-block;
+            padding: 14px 20px;
+            background-color: blue;
+        }
+        .navbar li a{
+            color: white;
+            font-size: 20px;
+        }
+        .center{
+            top:0px;
+            display: inline block;
+            text-align: center;
+            padding: 5px 10px;
+            font-size: 60px;
+            top: 5px;
+            background-color: yellow;
+        }
+        .book{
+            text-align: center;
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            
+        }
+        .book li{
+            display:inline-block;
+            background-color: blue;
+            font-size: 20px;
+            padding:20px 20px;
+        }
+        .book li a{
+            text-align: center;
+            color:white;
+        }
+        .phrase{
+            font-size: 30px;
+            background-color: yellow;
+            color:black;
+            font-style: italic;
+            text-align: center;
+
+        }
+        @media (max-width: 942px) and (min-width: 600px){
+            .center{
+                top:0px;
+                display: inline block;
+                text-align: center;
+                padding: 5px 10px;
+                font-size: 40px;
+                top: 5px;
+                background-color: yellow;
+            }
+        }
+        @media (max-width: 424px){
+            .center{
+                top:0px;
+                display: inline block;
+                text-align: center;
+                padding: 5px 10px;
+                font-size: 15px;
+                top: 5px;
+                background-color: yellow;
+            }
+        }
+        @media (max-width: 649px) and (min-width: 424px){
+            .center{
+                top:0px;
+                display: inline block;
+                text-align: center;
+                padding: 5px 10px;
+                font-size: 25px;
+                top: 5px;
+                background-color: yellow;
+            }
+        }
+        @media (max-width: 1029px) and (min-width: 782px){
+       
+            .navbar li{
+                display: inline-block;
+                padding: 14px 15px;
+                background-color: blue;
+            }
+            .navbar li a{
+                color: white;
+                font-size: 15px;
+            }
+        }
+        @media (max-width: 783px) and (min-width: 594px){
+       
+        .navbar li{
+           display: inline-block;
+           padding: 12px 13px;
+           background-color: blue;
+       }
+       .navbar li a{
+           color: white;
+           font-size: 12px;
+       }
+    }
+       @media (max-width: 652px)and (min-width: 436px){
+        .navbar li{
+           display: inline-block;
+           padding: 10px 12px;
+           background-color: blue;
+        }
+       .navbar li a{
+           color: white;
+           font-size: 10px;
+       }
+   }
+   @media (max-width: 435px){
+        .navbar li{
+           display: inline-block;
+           padding: 8px 10px;
+           background-color: blue;
+        }
+       .navbar li a{
+           color: white;
+           font-size: 8px;
+       }
+   }
+   @media (max-width: 1105px)and (min-width: 979px){
+    body{
+        background: url("img/ec5ef543-1667-46dc-8ee0-78bf8097b1fa.jfif");
+        background-repeat: no-repeat;
+        background-size: 1100px 500px;
+        background-position: 0% 40%;
+       }
+   }
+   @media (max-width: 979px)and (min-width: 853px){
+    body{
+        background: url("img/ec5ef543-1667-46dc-8ee0-78bf8097b1fa.jfif");
+        background-repeat: no-repeat;
+        background-size: 990px 500px;
+        background-position: 0% 40%;
+    }
+
+   }
+   @media (max-width: 853px)and (min-width: 718px){
+    body{
+        background: url("img/ec5ef543-1667-46dc-8ee0-78bf8097b1fa.jfif");
+        background-repeat: no-repeat;
+        background-size: 860px 500px;
+        background-position: 0% 40%;
+    }
+   }
+   @media (max-width: 718px)and (min-width: 610px){
+    body{
+        background: url("img/ec5ef543-1667-46dc-8ee0-78bf8097b1fa.jfif");
+        background-repeat: no-repeat;
+        background-size: 700px 500px;
+        background-position: 0% 40%;
+    }
+   }
+   @media (max-width: 610px)and (min-width: 510px){
+    body{
+        background: url("img/ec5ef543-1667-46dc-8ee0-78bf8097b1fa.jfif");
+        background-repeat: no-repeat;
+        background-size: 580px 500px;
+        background-position: 0% 40%;
+    }
+   }
+   @media (max-width: 510px)and (min-width: 410px){
+    body{
+        background: url("img/ec5ef543-1667-46dc-8ee0-78bf8097b1fa.jfif");
+        background-repeat: no-repeat;
+        background-size: 480px 500px;
+        background-position: 0% 40%;
+    }
+   }
+   @media (max-width: 410px){
+    
+    body{
+        background: url("img/ec5ef543-1667-46dc-8ee0-78bf8097b1fa.jfif");
+        background-repeat: no-repeat;
+        background-size: 350px 500px;
+        background-position: 0% 40%;
+    }
+   }
+  @media (max-width: 924px)and (min-width: 812px){
+    .phrase{
+            font-size: 26px;
+            background-color: yellow;
+            color:black;
+            font-style: italic;
+
+    }
+  }
+  @media (max-width: 812px)and (min-width: 710px){
+    .phrase{
+            font-size: 23px;
+            background-color: yellow;
+            color:black;
+            font-style: italic;
+
+    }
+  }
+  @media (max-width: 710px)and (min-width: 590px){
+    .phrase{
+            font-size: 22px;
+            background-color: yellow;
+            color:black;
+            font-style: italic;
+
+    }
+}
+    @media (max-width: 590px)and (min-width: 480px){
+    .phrase{
+            font-size: 16px;
+            background-color: yellow;
+            color:black;
+            font-style: italic;
+
+    }
+}
+    @media (max-width: 480px)and (min-width: 360px){
+    .phrase{
+            font-size: 15px;
+            background-color: yellow;
+            color:black;
+            font-style: italic;
+
+    }
+  }
+  
+  
+  </style>
+  <body >
+    <h1 class="center">
+        WELCOME TO RAPID RESCUE
+     </h1>
+    <ul class="navbar">
+      
+        
+        <li><a href="overview.html">OVERVIEW</a></li>
+        <li><a href="https://www.google.com/maps/search/hospital+near+me/@22.5514511,88.2832894,13z?entry=ttu">MAPS</a></li>
+        <li><a href="#">CONTENTS</a></li>
+        <li><a href="#">REVIEWS</a></li>
+        <li><a href="contact us.html">CONTACT&nbsp; US</a></li>
+
+      
+    </ul>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <h1 class="phrase">
+        <u>"NAVIGATING&nbsp; LIFELINES:&nbsp;WHERE&nbsp;&nbsp; EVERY&nbsp;&nbsp; SECOND&nbsp;&nbsp; COUNTS"</u> 
     </h1>
-    <h3 align="center">
-        <font face="Lato" colour="white" size="5">
-           WE CARE ABOUT YOUR LIFE
-        </font>
-    </h3>
     <br />
-    <h3  align="center">
-        <a href="#">
-            <style="colour:white">GET STARTED</font>
-            </a>&nbsp;&nbsp;&nbsp;
-            <a href="#">
-            <font face="Lato" colour="#fff">NEAR BY</font>
-         </a>
+    <h3  class="book">
+        
+            <ul>
+               <li><a href="book now.html">BOOK NOW</a></li> 
+                <li><a href="#">GET STARTED</a></li>
+                <button id="trackbutton">Track Us</button>
+            </ul>
+           
+        
      </h3>
-
+     
+     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
   </body>
 </html>
